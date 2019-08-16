@@ -17,7 +17,6 @@ class GameViewController: UIViewController {
     var floor:Floor!
     var levelGenerator=LevelGenerator(size:20)
     var ball:Ball!
-    let motionManager=CMMotionManager()
     var gameView: GameView {
         return view as! GameView
     }
